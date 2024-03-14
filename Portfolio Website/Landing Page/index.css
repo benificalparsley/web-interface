@@ -1,0 +1,112 @@
+@import url(https://fonts.cdnfonts.com/css/manga-temple);
+
+body {
+  font-family: serif;
+  background-image: linear-gradient(180deg,#7135a5, white);
+  background-repeat: repeat;
+  text-align: center;
+  color: #011418;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+          
+}
+.banner {
+  width: 50%; 
+  height: auto; 
+  margin: 0 auto; 
+  display: block;
+  opacity: 0.7;
+}
+.copyright {
+  font-size: small;
+}
+
+.button {
+background-color:white;
+font-family: 'Manga Temple',sans-serif;
+color: #071E22;
+border: 2px solid black;
+transition: transform 0.3s, background-color 0.3s, color 0.3s;
+cursor: pointer;
+}
+.button:hover {
+background-color: black;
+color: white;
+transform: translateY(-10px);
+border: 2px solid white;
+}
+
+
+.box-shadow1 {
+font-family: 'Manga Temple',sans-serif;
+background-color: white;
+color: black;
+padding: 1rem;
+border: 2px solid #051a1e;
+border-radius: 1.5rem;
+width: 60rem;
+height: 2rem;
+}
+.box-shadow2 {
+font-family: 'Manga Temple',sans-serif;
+background-color: white;
+color: black;
+padding: 1rem;
+border: 2px solid #051a1e;
+border-radius: 1.5rem;
+position: relative;
+}
+.box-shadow3 {
+font-family: 'Manga Temple',sans-serif;
+background-color: white;
+text-align: left;
+color: black;
+padding: 1rem;
+border: 2px solid #051a1e;
+border-radius: 1.5rem;
+width: 35rem;
+height: 20rem;
+}
+.box-shadow4 {
+font-family: 'Manga Temple',sans-serif;
+background-color: white;
+text-align: left;
+color: black;
+padding: 1rem;
+border: 2px solid #051a1e;
+border-radius: 1.5rem;
+width: 35rem;
+height: 20rem;
+float: right;
+}
+.box-shadow5 {
+font-family: 'Manga Temple',sans-serif;
+background-color: white;
+text-align: center;
+color: black;
+padding: 1rem;
+border: 2px solid #051a1e;
+border-radius: 1.5rem;
+width: 35rem;
+height: 20rem;
+float: right;
+}
+
+
+
+img {
+border-radius: 1rem;
+color: black;
+border: 2px solid #051a1e;
+background-color: white;
+}
+footer {
+  font-family: 'Manga Temple' ,sans-serif;
+  padding: 10px;
+  background-color: #7135a5; 
+  color: #fff;
+  bottom: 0;
+  width: 100%;
+}
